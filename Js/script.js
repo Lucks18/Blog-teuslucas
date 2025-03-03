@@ -54,7 +54,11 @@ function cabecalho(cabecalhos) {
         if(window.location.pathname.endsWith('/sobre.html')) {
             a3.href = '#';
         } else {
-            a3.href = 'Paginas/sobre.html';
+            if (window.location.pathname.startsWith('/Paginas/')) {
+                a3.href = 'sobre.html';
+            } else {
+                a3.href = 'Paginas/sobre.html';
+            }
         }
         
 
