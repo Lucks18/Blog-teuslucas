@@ -41,7 +41,7 @@ function cabecalho(cabecalhos) {
         var img3 = document.createElement('img');
 
         a1.innerHTML = 'home';
-        if(window.location.pathname === 'Blog-teuslucas' || window.location.pathname.endsWith('/index.html')) {
+        if(window.location.pathname === '/' || window.location.pathname === '/Blog-teuslucas/' || window.location.pathname.endsWith('/index.html')) {
             a1.href = 'index.html';
         } else {
             a1.href = '../index.html';
