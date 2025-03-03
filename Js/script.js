@@ -50,7 +50,7 @@ function cabecalho(cabecalhos) {
         a2.innerHTML = 'conteudo';
         a2.href = '#';
         
-        a3.innerHTML = 'sobre';
+       a3.innerHTML = 'sobre';
         if(window.location.pathname.endsWith('/sobre.html')) {
             a3.href = '#';
             
@@ -58,8 +58,9 @@ function cabecalho(cabecalhos) {
             if (!window.location.pathname.endsWith('/Paginas/')){
                 a3.href ='sobre.html';
                 document.write('verdadeiro');
-            } if(window.location.pathname === '/' || window.location.pathname === '/Blog-teuslucas/' || window.location.pathname.endsWith('/index.html')){
-                a3.href = 'Paginas/sobre.html';
+            } if(window.location.pathname === '/' || window.location.pathname === '/Blog-teuslucas/' || window.location.pathname.endsWith('/index.html')) {
+                //a3.href = 'Paginas/sobre.html';
+                a3.href = '/Blog-teuslucas/Paginas/sobre.html';
             }
         }
         
