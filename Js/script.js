@@ -61,7 +61,7 @@ function cabecalho(cabecalhos) {
                 a3.href = 'Paginas/sobre.html'; 
             }
         }
-        }
+        
         
 
 
