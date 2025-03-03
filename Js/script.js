@@ -53,12 +53,13 @@ function cabecalho(cabecalhos) {
         a3.innerHTML = 'sobre';
         if(window.location.pathname.endsWith('/sobre.html')) {
             a3.href = '#';
-        }else {
-
-            if (window.location.pathname.startsWith('/Paginas/')) {
-                a3.href = 'sobre.html'; 
-            } else {
-                a3.href = 'Paginas/sobre.html'; 
+            
+        } else{
+            if (!window.location.pathname.endsWith('/Paginas/')){
+                a3.href ='sobre.html';
+                document.write('verdadeiro');
+            } if(window.location.pathname === '/' || window.location.pathname.endsWith('/index.html')){
+                a3.href = 'Paginas/sobre.html';
             }
         }
         
