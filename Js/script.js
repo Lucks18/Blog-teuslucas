@@ -56,7 +56,7 @@ function cabecalho(cabecalhos) {
                 a2.href ='conteudo.html';
             } if(window.location.pathname === '/' || window.location.pathname === '/Blog-teuslucas/' || window.location.pathname.endsWith('/index.html')) {
                 //a2.href = 'Paginas/conteudo.html';
-                a2.href = '/Blog-teuslucas/Paginas/conteudo.html';
+                a2.href = './Blog-teuslucas/Paginas/conteudo.html';
             }
         }
         
