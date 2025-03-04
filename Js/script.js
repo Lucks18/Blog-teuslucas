@@ -74,6 +74,9 @@ function cabecalho(cabecalhos) {
             }
         }
 
+        a7.innerHTML = 'contato';
+        a7.href = '#'
+
 
         a4.href = 'https://www.instagram.com/mateus_msx?igsh=MXRxd2x2OXlldDl4Nw==';
         img1.src = "../Imagens/instagram.png";
