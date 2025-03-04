@@ -17,7 +17,8 @@ body {
     background-position: center;
     margin: 10px auto;
     padding: 50px;
-    width: 80%;
+    width: 60%;
+    height: auto;
     text-align: center;
     border: 2px solid;
     border-radius: 10px;
@@ -33,6 +34,41 @@ body {
     font-size: 20px;
     padding: 15px;
 }
+/*fim*/
+
+/*propagandas*/
+.propaganda2{
+    margin: 100px auto;
+    border: 2px solid;
+    width: 60%;
+    padding: 40px;    
+}
+.propaganda2 p{
+    text-align: center;
+    font-size: 40px
+}
+.propaganda3{
+    margin: 100px auto;
+    border: 2px solid;
+    width: 60%;
+    padding: 40px;    
+}
+.propaganda3 p{
+    text-align: center;
+    font-size: 40px
+}
+.propaganda1{
+    margin: 100px auto;
+    border: 2px solid;
+    width: 60%;
+    padding: 40px;    
+}
+.propaganda1 p{
+    text-align: center;
+    font-size: 40px
+}
+/*fim*/
+
 
 /* Últimos post links e... *******************************************/
 
@@ -48,7 +84,7 @@ body {
     margin: 0 auto;
     border: 2px;
     width: 100%;
-    height: 450px;
+    height: 600px;
     padding: 10px;
 }
 
@@ -77,6 +113,7 @@ body {
     border: 2px solid;
     border-radius: 10px;
     width: 50%;
+    height: 100%;
     list-style-type: none;
     transition: transform 0.1s ease-in-out;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
@@ -106,7 +143,7 @@ body {
     color: white;
     font-size: 25px;
     width: 100%;
-    height: 20%;
+    height: 25%;
     border-radius: 0 0 5px 5px;
     display: flex;
     align-items: center;
@@ -163,7 +200,7 @@ body {
     color: white;
     font-size: 25px;
     width: 100%;
-    height: 20%;
+    height: 30%;
     border-radius: 0 0 5px 5px;
     display: flex;
     align-items: center;
@@ -195,7 +232,7 @@ body {
     color: white;
     font-size: 25px;
     width: 100%;
-    height: 20%;
+    height: 30%;
     border-radius: 0 0 5px 5px;
     display: flex;
     align-items: center;
@@ -211,33 +248,12 @@ body {
 
 /* Fim Dos Últimos posts *******************************************/
 
-/* Links *******************************************/
-.links {
-    border: 1px solid;
-    margin: 10px;
-    width: 15%;
-    height: 40%;
-    list-style-type: none;
-}
-
-.links li {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.youtube img, .x img {
-    width: 50px;
-    height: auto;
-}
-
-/* Fim dos links *******************************************/
 
 .barra-lateral {
     border: 2px solid;
     margin: 5px 5px 5px 40px;
-    width: 25%;
-    height: 600px;
+    width: 15%;
+    height: 700px;
 }
 
 /* Fim dos últimos post links e... *******************************************/
@@ -254,7 +270,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 .outro-post h2{
-    margin: 0 auto;
+    margin: 20px auto;
     text-align: center;
 }
 .outro-post ul{
@@ -287,23 +303,6 @@ body {
 }
 
 /* Fim dos conteúdos ***********************************************/
-
-/* Roda pé ********************************************/
-footer {
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 150px;
-    background-color: hsl(0, 0%, 20%);
-    color: white;
-    text-align: center;
-    padding: 15px;
-    font-size: 14px;
-
-    display: flex;
-    justify-content: center; /* Centraliza na horizontal */
-    align-items: center; /* Centraliza na vertical */
-}
 
 @media only screen and (max-width: 1200px) {
     .barra-lateral {
