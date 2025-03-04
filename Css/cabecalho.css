@@ -61,7 +61,7 @@
     filter: invert(50%) sepia(100%) saturate(400%) hue-rotate(-30deg) brightness(100%);
     transform: scale(1.1); /* Diminui o tamanho do efeito de escala */
 }
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 780px){
     .paginas{
         margin: 20px auto;
         width: 50%;
