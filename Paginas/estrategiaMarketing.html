@@ -11,12 +11,14 @@
         #lastUpdated {
             font-family: Arial, sans-serif;
             font-size: 14px;
-            color: #555;
-            background: #f8f9fa;
-            padding: 8px 12px;
-            display: inline-block;
-            border-radius: 4px;
-            margin-top: 10px;
+            width: 60%;
+            margin: 0 auto;
+            border: 2px;
+        }
+        @media only screen and (max-width: 700px){
+            #lastUpdated{
+                width: 90%;
+            }
         }
     </style>
 </head>
@@ -71,16 +73,36 @@
 
     <main>
         <hr>
-        <p class="post">1. *Propaganda Paga em Redes Sociais*: Uma das estratégias mais conhecidas, é o anúncio nas redes. Desta forma, conseguimos expor e divulgar nossos produtos de maneira eficaz e com amplo alcance. <br>
-
-            2. *Marketing de Conteúdo*: Nesta estratégia, criamos conteúdo informativo sobre assuntos relevantes, entregando valor ao cliente. Isso nos permite ser lembrados na hora de fazer pedidos e cobrar preços mais altos.<br>
+        <div class="post">
+            <p>1. *Propaganda Paga em Redes Sociais*: Uma das estratégias mais conhecidas, é o anúncio nas redes. Desta forma, conseguimos expor e divulgar nossos produtos de maneira eficaz e com amplo alcance. <br>
+                2. *Marketing de Conteúdo*: Nesta estratégia, criamos conteúdo informativo sobre assuntos relevantes, entregando valor ao cliente. Isso nos permite ser lembrados na hora de fazer pedidos e cobrar preços mais altos.<br>
             
-            3. *SEO (Otimização para Mecanismos de Busca)*: Esta estratégia visa otimizar nosso site e publicações para aparecer nas primeiras páginas dos mecanismos de busca. Utilizamos palavras-chave relevantes e uma boa experiência do usuário.<br>
+                3. *SEO (Otimização para Mecanismos de Busca)*: Esta estratégia visa otimizar nosso site e publicações para aparecer nas primeiras páginas dos mecanismos de busca. Utilizamos palavras-chave relevantes e uma boa experiência do usuário.<br>
             
-            4. *Tráfego Pago*: Semelhante ao SEO, melhoramos nosso ranking nos buscadores, pagando diretamente para aparecer no topo das buscas.<br>
+                4. *Tráfego Pago*: Semelhante ao SEO, melhoramos nosso ranking nos buscadores, pagando diretamente para aparecer no topo das buscas.<br>
             
-            5. *Marketing Boca a Boca*: Estimulamos consumidores e pessoas influentes a falarem sobre nossos produtos, oferecendo amostras gratuitas e benefícios<br>
-        </p>
+                5. *Marketing Boca a Boca*: Estimulamos consumidores e pessoas influentes a falarem sobre nossos produtos, oferecendo amostras gratuitas e benefícios<br>
+            </p>
+        </div>
     </main>
+    <footer>© 2024 Meu Site. Todos os direitos reservados.</footer>
+    <style>
+        /* Roda pé ********************************************/
+    footer {
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 150px;
+        background-color: hsl(0, 0%, 20%);
+        color: white;
+        text-align: center;
+        padding: 15px;
+        font-size: 14px;
+    
+        display: flex;
+        justify-content: center; /* Centraliza na horizontal */
+        align-items: center; /* Centraliza na vertical */
+    }
+    </style>
 </body>
 </html>
