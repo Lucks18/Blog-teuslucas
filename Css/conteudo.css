@@ -12,6 +12,8 @@
 #icone-pesquisa{
     cursor: pointer;
     transition: filter 0.1s ease;
+    width: 3%;
+    height: auto;
 }
 #icone-pesquisa:active {
     filter: invert(50%) sepia(100%) saturate(800%) hue-rotate(50deg) brightness(100%); 
