@@ -47,8 +47,18 @@ function cabecalho(cabecalhos) {
             a1.href = '../index.html';
         }
         
-        a2.innerHTML = 'conteudo';
-        a2.href = '#';
+       a2.innerHTML = 'conteúdo';
+        if(window.location.pathname.endsWith('/conteudo.html')) {
+            a2.href = '#';
+            
+        } else{
+            if (!window.location.pathname.endsWith('/Paginas/')){
+                a2.href ='conteudo.html';
+            } if(window.location.pathname === '/' || window.location.pathname === '/Blog-teuslucas/' || window.location.pathname.endsWith('/index.html')) {
+                //a2.href = 'Paginas/conteudo.html';
+                a3.href = '/Blog-teuslucas/Paginas/sobre.html';
+            }
+        }
         
        a3.innerHTML = 'sobre';
         if(window.location.pathname.endsWith('/sobre.html')) {
