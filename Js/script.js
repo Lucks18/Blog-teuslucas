@@ -23,6 +23,7 @@ function cabecalho(cabecalhos) {
         var li1 = document.createElement('li');
         var li2 = document.createElement('li');
         var li3 = document.createElement('li');
+        var li7 = document.createElement('li');
 
         var li4 = document.createElement('li');
         var li5 = document.createElement('li');
@@ -31,6 +32,7 @@ function cabecalho(cabecalhos) {
         var a1 = document.createElement('a');
         var a2 = document.createElement('a');
         var a3 = document.createElement('a');
+        var a7 = document.createElement('a')
 
         var a4 = document.createElement('a');
         var a5 = document.createElement('a');
@@ -55,8 +57,8 @@ function cabecalho(cabecalhos) {
             if (!window.location.pathname.endsWith('/Paginas/')){
                 a2.href ='conteudo.html';
             } if(window.location.pathname === '/' || window.location.pathname === '/Blog-teuslucas/' || window.location.pathname.endsWith('/index.html')) {
-                //a2.href = 'Paginas/conteudo.html';
-                a2.href = '../Blog-teuslucas/Paginas/conteudo.html';
+                a2.href = 'Paginas/conteudo.html';
+                //a2.href = '../Blog-teuslucas/Paginas/conteudo.html';
             }
         }
         
@@ -100,6 +102,7 @@ function cabecalho(cabecalhos) {
         li1.appendChild(a1);
         li2.appendChild(a2);
         li3.appendChild(a3);
+        li7.appendChild(a7);
 
         li4.appendChild(a4);
         li5.appendChild(a5);
@@ -108,6 +111,7 @@ function cabecalho(cabecalhos) {
         ul1.appendChild(li1);
         ul1.appendChild(li2);
         ul1.appendChild(li3);
+        ul1.appendChild(li7);
 
         ul2.appendChild(li4);
         ul2.appendChild(li5);
