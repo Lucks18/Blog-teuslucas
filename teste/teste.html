@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../Css/cabecalho.css">
+
+  <title>Ícones de Redes Sociais</title>
+</head>
+<body>
+
+<!--Criando cabeçalho-->       
+<div class="header"></div>
+
+<script src="../Js/script.js"></script>
+<!--Fim do cabeçalho-->
+
+
+  <div class="redes-sociais">
+    <a href="#" class="icone-rede">
+      <img src="Imagens/instagram.png" alt="Facebook" />
+    </a>
+  </div>
+
+  <style>
+    /* Container com os ícones */
+.redes-sociais {
+  display: flex;
+  justify-content: center; /* Centraliza os ícones */
+  align-items: center; /* Alinha verticalmente no centro */
+  gap: 20px; /* Espaçamento entre os ícones */
+  padding: 20px;
+  flex-wrap: wrap; /* Faz os ícones "quebrarem" para a linha de baixo se necessário */
+}
+
+/* Estilo para os ícones */
+.icone-rede img {
+  width: 50px; /* Largura fixa para a imagem */
+  height: auto; /* Mantém a proporção da imagem */
+  transition: transform 0.3s ease; /* Transição para o efeito de hover */
+}
+
+.icone-rede:hover img {
+  transform: scale(1.2); /* Aumenta o tamanho da imagem quando passa o mouse */
+}
+
+  </style>
+
+<style>
+    .container {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .box {
+        width: 80px;
+        height: 80px;
+        background-color: orange;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        color: white;
+        text-shadow: 1px 1px 2px black;
+    }
+
+    .deg-0 { filter: hue-rotate(0deg); }
+    .deg-50 { filter: hue-rotate(50deg); }
+    .deg-100 { filter: hue-rotate(100deg); }
+    .deg-150 { filter: hue-rotate(150deg); }
+    .deg-200 { filter: hue-rotate(200deg); }
+    .deg-250 { filter: hue-rotate(250deg); }
+    .deg-300 { filter: hue-rotate(300deg); }
+    .deg-350 { filter: hue-rotate(350deg); }
+    .deg-360 { filter: hue-rotate(360deg); }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="box deg-0">0°</div>
+    <div class="box deg-50">50°</div>
+    <div class="box deg-100">100°</div>
+    <div class="box deg-150">150°</div>
+    <div class="box deg-200">200°</div>
+    <div class="box deg-250">250°</div>
+    <div class="box deg-300">300°</div>
+    <div class="box deg-350">350°</div>
+    <div class="box deg-360">360°</div>
+</div>
+
+
+
+
+
+</body>
+</html>
+
+
+(window.location.pathname.indexOf("Paginas") === -1) ? 'index.html' : '../index.html'; // Se não estiver em "Paginas", o link vai para o index.html
