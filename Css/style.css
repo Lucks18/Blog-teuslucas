@@ -143,6 +143,10 @@ body {
         border: 1px solid hsl(0, 0%, 50%);
         border-radius: 20px;
     }
+    .recenter{
+        width: 100%;
+        margin: 0 auto;
+    }
     .post-recen{
         display: flex;
         flex-direction: inherit;
