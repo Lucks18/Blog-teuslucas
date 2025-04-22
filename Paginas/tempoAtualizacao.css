@@ -5,7 +5,7 @@
     margin: 0 auto;
     border: 2px;
 }
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 900px){
     #lastUpdated{
         width: 90%;
     }
