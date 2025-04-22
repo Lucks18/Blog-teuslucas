@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conteúdo</title>
+
+    <link rel="stylesheet" href="../Css/conteudo.css">
+    
+    <!--css cabeçalho-->
+    <link rel="stylesheet" href="../Js/cabecalho.css">
+
+</head>
+<body>
+    <!--Criando cabeçalho-->       
+    <div class="header"> </div>
+
+    <script src="../Js/script.js"></script>
+<!--Fim do cabeçalho-->
+
+<main>
+    <!--categorias-->
+    <h1>categoria</h1>
+
+    <!--Marketing-->   
+    <section class="catalogo">
+        <div class="marketing">
+            <h2>Marketing</h2>
+            <ul>
+                <li><a href="">teste</a></li>
+                <li><a href="">teste</a></li>
+                <li><a href="">teste</a></li>
+            </ul>
+        </div>
+        <!--Fim Marketing-->
+        <!--Investimento-->
+        <div class="investimento">
+            <h2>Investimento</h2>
+            <ul>
+                <li><a href="">5 dicas para escolher boas ações segundo warren buffet</a></li>
+                <li><a href="">teste</a></li>
+                <li><a href="">teste</a></li>
+            </ul>
+        </div>
+    </section>
+    <!--Fim Investimento-->
+
+    <!--Fim categorias-->
+</main>  
+<script>
+    document.querySelectorAll('.catalogo h2').forEach(titulo => {
+        titulo.addEventListener('click', () => {
+            const ul = titulo.nextElementSibling;
+            ul.classList.toggle('ativo');
+        });
+    });
+</script>
+
+ <!--Roda pé-->
+ <footer>
+    <div class="Site">
+        <h2>NOME DO SITE</h2>
+        <p>
+            Bem-vindo ao <b>[Nome do Site]!</b> 🚀
+            Descubra tudo sobre marketing digital, tecnologia e investimentos, com conteúdos atualizados e estratégias para impulsionar seu sucesso online.
+        </p>
+    </div>
+    <div class="categoria">
+        <h2>categoria</h2>
+    </div>
+    <div class="acompanhe">
+        <h2>ACOMPANHE</h2>
+    </div>
+</footer>
+<!--Fim roda pé-->
+
+
+<style>
+    /* Roda pé ********************************************/
+footer {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    padding: 0 200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+}
+footer div{
+    border: 1px solid hsl(0, 0%, 100%);
+    margin: 20px 0;
+    width: 40%;
+}
+@media only screen and (max-width: 710px){
+    footer{
+        flex-direction: column;
+        padding: 0 20px;
+        gap: 20px;
+    }
+    footer div{
+    border: 1px solid hsl(0, 0%, 100%);
+    margin: 20px 0;
+    width: 100%;
+    }
+}
+</style>
+
+</body>
+</html>

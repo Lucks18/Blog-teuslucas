@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(0, 0%, 100%);
+    line-height: 30px;
+    margin: 0 auto;
+    min-height: 100vh;
+    overflow-x: hidden; /* Impede rolagem horizontal */
+}
+main{
+    margin-bottom: 420px;
+}
+main h1{
+    margin: 50px 0;
+    text-align: center;
+    font-size: 60px;
+}
+
+.catalogo{
+    padding: 25px 0;
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    border: 1px ;
+}
+.catalogo h2{
+    padding: 10px;
+    text-align: center;
+    border-left: 1px solid black;
+    border-top: 1px dashed;
+    border-bottom: 1px dashed;
+    border-right: 1px solid black;
+    cursor: pointer;
+}
+.catalogo ul{
+    display: none;
+}
+.catalogo ul.ativo{
+    display: block;
+}
+.catalogo li {
+    background-color: hsl(0, 0%, 90%);
+    list-style: none;
+    border: 1px;
+    line-height: 25px;
+    position: relative;
+    text-indent: 20px;
+}
+
+.catalogo li::before {
+    content: "●";
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+}
+
+
+
+.catalogo li:hover{
+    background-color: hsl(0, 0%, 70%);
+    transition: 0.5s;
+}
+.catalogo a{
+    display: block;
+    width: 100%;
+    height: auto;
+    text-decoration: none;
+    color: hsl(0, 0%, 0%);
+}
+.marketing h2{
+    background-color: hsl(300, 100%, 80%);
+}
+.investimento{
+    background-color: hsl(200, 100%, 50%);
+}
+    
+
+
+@media only screen and (max-width: 700px){
+    main{
+        margin-bottom: 120px;
+    }
+}
