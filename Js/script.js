@@ -67,7 +67,7 @@ function cabecalho(cabecalhos) {
         } else{
             if (!window.location.pathname.endsWith('/Paginas/')){
                 a3.href ='sobre.html';
-                //document.write('verdadeiro');
+                document.write('verdadeiro');
             } if(window.location.pathname === '/' || window.location.pathname === '/Blog-teuslucas/' || window.location.pathname.endsWith('/index.html')) {
                 //a3.href = 'Paginas/sobre.html';
                 a3.href = '#';
