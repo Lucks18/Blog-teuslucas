@@ -1,0 +1,29 @@
+.titulo{
+    margin: 25px auto;
+    width: 50%;
+    height: auto;
+    font-size: 50px;
+}
+.conteudo{
+    margin: 100px auto;
+    width: 40%;
+    height: auto;  
+}
+.cont1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    border: 1px ;
+}
+.conteudo p{
+    text-align: justify;
+    font-size: 28px;
+}
+.cont1 img {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+    border: 1px solid;
+    border-radius: 10px;
+  }
