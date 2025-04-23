@@ -56,8 +56,8 @@ function cabecalho(cabecalhos) {
             if (!window.location.pathname.endsWith('/Paginas/')){
                 a2.href ='conteudo.html';
             } if(window.location.pathname === '/' || window.location.pathname === '/Blog-teuslucas/' || window.location.pathname.endsWith('/index.html')) {
-                a2.href = './Paginas/conteudo.html';
-                //a2.href = '/Blog-teuslucas/Paginas/sobre.html';
+                //a2.href = './Paginas/conteudo.html';
+                a2.href = '/Blog-teuslucas/Paginas/sobre.html';
             }
         }
         
@@ -69,8 +69,8 @@ function cabecalho(cabecalhos) {
                 a3.href ='sobre.html';
                 //document.write('verdadeiro');
             } if(window.location.pathname === '/' || window.location.pathname === '/Blog-teuslucas/' || window.location.pathname.endsWith('/index.html')) {
-                a3.href = 'Paginas/sobre.html';
-                //a3.href = '/Blog-teuslucas/Paginas/sobre.html';
+                //a3.href = 'Paginas/sobre.html';
+                a3.href = '/Blog-teuslucas/Paginas/sobre.html';
             }
         }
 
@@ -82,8 +82,8 @@ function cabecalho(cabecalhos) {
                 a7.href ='contato.html';
                 //document.write('verdadeiro');
             } if(window.location.pathname === '/' || window.location.pathname === '/Blog-teuslucas/' || window.location.pathname.endsWith('/index.html')) {
-                a7.href = 'Paginas/contato.html';
-                //a3.href = '/Blog-teuslucas/Paginas/sobre.html';
+                // a7.href = 'Paginas/contato.html';
+                a3.href = '/Blog-teuslucas/Paginas/contato.html';
             }
         }
 
